@@ -1,0 +1,294 @@
+/*comentar en css*/
+html{
+	/*definir el tamaño del html total*/
+	width: 100%;
+	height: 100%;
+	/*color de fuente*/
+	color: black;
+	/*reconocimiento de letra*/
+	font-family: arial, sans serif;
+	/*tamaño de letra*/
+	font-size: 20px;
+	/*background-image: url(../backround/background-logo.jpg);*/
+	top: 100%;
+	line-height:1.5;
+	background-color:rgb(83,0,0);
+}
+
+body{
+	/*margen de borde del cuerpo*/
+	margin:0px;
+	width:100%;
+	height:100%;
+}
+
+header{
+	/*tamaño que va a ocupar el header o banner con el logo*/
+	width: 100%;
+	height: 15%;
+	background-color:rgb(83,0,0);
+}
+
+
+/**/
+.w3-sidebar{
+	height:100%; 
+	margin-top:0%;
+	width:70%;
+	background-image: url(../../backround/Screenshot_2017-04-25-10-14-02.jpg);
+	background-repeat: repeat;
+	/*background-color:#1A1A1A;/*color del sidebar*/
+	position:fixed!important;
+	z-index:1;
+	color:#FFF;/*color del texto*/
+
+}
+
+.w3-bar-block .w3-bar-item{/*REVISAR*/
+	width:100%;display:block;
+	padding:3% 12%;
+	text-align:left;
+	border:none;
+	outline:none;
+	white-space:normal;
+	border-bottom: 1px solid #000;
+}
+
+.w3-overlay{/*REVISAR*/
+	position:fixed;
+	display:none;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0.5);
+	z-index:2;
+	
+}
+
+.w3-animate-left{/*REVISAR*/
+	position:relative;
+	animation:animateleft 5s;
+	-webkit-transition:left 5s;
+	-moz-transition:left 5s;
+	-o-transition:left 5s;
+	-ms-transition:left 5s;
+}
+@keyframes animateleft{/*REVISAR*/
+	from{
+	left:-300px;
+	opacity:0
+	} 
+	to{left:0;
+	opacity:1}
+}
+
+
+
+.w3-medium{/*REVISAR*/
+	font-size:15px!important
+	}.w3-large{
+		font-size:18px!important
+}
+.w3-xlarge{/*REVISAR*/
+	font-size:24px!important
+	}.w3-xxlarge{
+		font-size:36px!important
+		}.w3-xxxlarge{
+			font-size:48px!important
+			}.w3-jumbo{
+				font-size:64px!important
+}
+
+.w3-buttn:hover{/*sidebar*/
+	color:#000!important;/*color del texto al ser sombreado*/
+	background-color:#4ABCDD!important;/*sombreado celeste*/
+	border-left: 4px solid #0F3;/*barra verde lateral*/
+	font-size: 20px;/*agranda la letra al pasar el mouse*/
+}
+
+#alexis-sidebar{
+	
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 90%;
+	height: 15%;
+	margin-left:5%;
+	margin-top:10%;
+}
+.slider{
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 50%;
+	height: 15%;
+	margin-left:25%;
+	margin-top:10%;
+	-webkit-animation-name: example;
+	-webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+	animation-name: example;
+	}
+
+#scroll-sidebar{/*scroll del sidebar*/
+	width: 100%;
+	height: 75%;
+	overflow-y: scroll;
+	position: absolute;
+	top: 25%;
+	margin: 0%;
+	padding: 0%;
+}
+
+
+
+
+#backgroung-logo{
+	background-color:rgb(103,0,0);
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 100%;
+	height: 100%;
+}
+
+/*#logo{
+	/*tamaño del logo ancho y largo*/
+	/*width: 17%;
+	height: 12%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	/*left: 20%;
+	/*centrar manualmente de arriba hacia abajo*/
+	/*top: 1.5%;
+	position: absolute;
+	cursor: pointer;
+}*/
+#frases{
+	/*tamaño del logo ancho y largo*/
+	width: 50%;
+	height: 10%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 30%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: 2.5%;
+	position: absolute;
+	cursor: pointer;
+}
+
+#hamburguesa{
+	/*tamaño del logo ancho y largo*/
+	width: 10%;
+	height: 10%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 5%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: 2.5%;
+	position: absolute;
+	cursor: pointer;
+}
+
+.w3-buttn{
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:left;
+	cursor:pointer;
+	white-space:nowrap
+	}
+
+
+section{
+	position:relative;
+	width: 100%;
+	height: 75%;
+	background-color:rgb(0,0,0);
+}
+	
+.backgroung{
+	/*ocupa el tamaño total del seccion*/
+	display:table;
+	width:100%;
+	height:100%;
+}
+.background1{
+	position:absolute;
+	/*tamaño del boton ancho y largo*/
+	width:94%;
+	height:94%;
+	/*fondo del boton*/
+	background-color:rgb(83,0,0);
+	/*boton centrado en los laterales*/
+	margin-left:3%;
+	/*separacion entre botones*/
+	margin-top:3%;
+	/*redondeado en borde del boton*/
+	border-radius:10px;
+	/*cuando el cursor se posiciona en el boton se cambia a una manito*/
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;	
+}
+
+.backgroung2{
+	/*tamaño del boton ancho y largo*/
+	width:94%;
+	height:94%;
+	/*fondo del boton*/
+	background-color:rgb(999,999,999);
+	/*boton centrado en los laterales*/
+	margin-left:3%;
+	/*separacion entre botones*/
+	margin-top:2.5%;
+	/*redondeado en borde del boton*/
+	border-radius:10px;
+	/*cuando el cursor se posiciona en el boton se cambia a una manito*/
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;	
+	
+}
+div.scroll {
+	width: 98%;
+	height: 97%;
+	overflow-y: scroll;
+	position: absolute;
+	top: 2%;
+	margin: 0%;
+	padding: 0%;
+}
+p{
+    columns: 100%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:50%;
+	position:relative;
+	border-bottom: 1px solid #000;
+
+}
+
+footer{
+	width: 100%;
+	height: 9.9%;
+	background-color:rgb(83,0,0);
+}
+#alexis{
+	position:relative;
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 50%;
+	height: 90%;
+	margin-left:25%;
+	margin-top:0.7%;
+}
+
+
+.la-empresa{
+	font-size:24px!important
+	}
+
+.Frases{
+	font-size:24px!important
+	}

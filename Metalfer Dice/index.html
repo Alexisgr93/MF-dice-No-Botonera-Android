@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>W3.CSS</title>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilo/index.css">
+   
+    <script src="js/index.js"></script>
+    </head>
+		<body>
+			<header>
+                <!--background del header-->
+                
+                	<a href="index.html">                   
+                        <!--logo de engranaje con petroleo-->
+                      <!--  <img id="logo" src="logo/logo.png"></img>
+                        <!--Imagen de metalfer-->
+                        <img id="frases" src="logo/Frases.png"></img>
+                	</a>
+        			<!-- Page Content -->
+						<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+  							<img class="w3-button w3-white w3-xxlarge" id="hamburguesa" src="logo/menu.png" onclick="w3_open()">
+                    <!-- Sidebar -->
+                    	<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+                        <img id="alexis-sidebar" src="logo/LOGOg.png"></img>
+                   
+                        	<div class="scroll" id="scroll-sidebar">
+                      		  <button class="w3-bar-item w3-buttn w3-large" onclick="w3_close()">CERRAR X</button>
+                              
+
+	
+							 <a href="#" onClick="frases_oculta('frases_a_mostrar')" title="" class="w3-bar-item w3-buttn Frases" >Frases Metalfer &#43;</a>
+
+<div id="frases_a_mostrar">
+                              <a href="acciones/freases famosas/Alexis.htm" class="w3-bar-item w3-buttn">Alexis Rodríguez</a>
+                              <a href="acciones/freases famosas/Nestor.html" class="w3-bar-item w3-buttn">Néstor Bartoletti</a>
+                              <a href="acciones/freases famosas/Raul.html" class="w3-bar-item w3-buttn">Raúl Orozco</a>
+                              <a href="acciones/freases famosas/Carpentieri.html" class="w3-bar-item w3-buttn">Eduardo Carpentieri</a>
+                              <a href="acciones/freases famosas/Gonzalez.html" class="w3-bar-item w3-buttn">Eduardo Gonzalez</a>
+                              <a href="acciones/freases famosas/Omar.html" class="w3-bar-item w3-buttn">Omar Acuña</a>
+                              <a href="#" class="w3-bar-item w3-buttn">Dario Acuña</a>
+                              <a href="acciones/freases famosas/Horacio.html" class="w3-bar-item w3-buttn">Horacio Alvarez</a>
+                              <a href="#" class="w3-bar-item w3-buttn">Matias Brito</a>
+                              <a href="acciones/freases famosas/Laura.html" class="w3-bar-item w3-buttn">Laura</a>
+                              <a href="#" class="w3-bar-item w3-buttn">Hernan</a>
+                              <a href="acciones/freases famosas/Juan.html" class="w3-bar-item w3-buttn">Juan</a>
+                              <a href="acciones/freases famosas/Francisco.html" class="w3-bar-item w3-buttn">Francisco Lugo</a>
+                              
+                   	</div>	
+                        <!-- redes sociales -->
+					<div id="social">
+                	
+					<a  href="#">
+                    	<img class="facebook" onClick="face" src="backround/f.png"></img>
+                        </a>
+				<a href="#">
+                    	<img  class="linkedin"  src="backround/in.png"></img>
+                        </a>
+                <a href="#">
+                    	<img  class="twitter" src= "backround/t.png"></img>
+                        </a>
+					
+				
+
+			<div class="copyright">Copyright © All Rights Reserved.</div>
+		</div>
+		<!--Fin redes sociales -->
+	</div>
+                        </div>
+                        </div>
+			</header>
+		
+          <section>
+            <div class="backgroung">
+            	<div class="background1">
+                <div class="backgroung2">
+                <div class="scroll">
+                   	<p>Tu Opinion...<source src="Sonidos/1.mp3"><button onclick="playAudio()" type="button">|></button>
+<button onclick="pauseAudio()" type="button">||</button></p>
+
+                    <p>Tomatela...<source src="Sonidos/2.m4a"><button onclick="playAudio1()" type="button">|></button>
+<button onclick="pauseAudio1()" type="button">||</button></p>
+
+                    <p>Se hace la... <source src="Sonidos/3.m4a"><button onclick="playAudio2()" type="button">|></button>
+<button onclick="pauseAudio2()" type="button">||</button></p>
+
+                   <p>El Unico Macho...<source src="Sonidos/4.m4a"><button onclick="playAudio3()" type="button">|></button>
+<button onclick="pauseAudio3()" type="button">||</button></p>
+
+                    <p>Hay gente que...<source src="Sonidos/5.m4a"><button onclick="playAudio4()" type="button">|></button>
+<button onclick="pauseAudio4()" type="button">||</button></p>
+
+                    <p>Aleeee...<source src="Sonidos/6.m4a"><button onclick="playAudio5()" type="button">|></button>
+<button onclick="pauseAudio5()" type="button">||</button></p>
+
+                    <p>Todo bien Lindooo...<source src="Sonidos/7.mp3"><button onclick="playAudio6()" type="button">|></button>
+<button onclick="pauseAudio6()" type="button">||</button></p>
+
+                   
+
+                    <p>Yo voy a...<source src="Sonidos/9.m4a"><button onclick="playAudio8()" type="button">|></button>
+<button onclick="pauseAudio8()" type="button">||</button></p>
+
+                    <p>Ahora Son amigos...<source src="Sonidos/10.mp3"><button onclick="playAudio9()" type="button">|></button>
+<button onclick="pauseAudio9()" type="button">||</button></p>
+
+                    <audio id="myAudio">
+  
+  <source src="Sonidos/1.mp3">
+
+<p>Un Test
+
+<button onclick="playAudio()" type="button">|></button>
+<button onclick="pauseAudio()" type="button">||</button> 
+						</p>
+						</audio>
+						<audio id="myAudio1">
+  
+  <source src="Sonidos/2.m4a">
+
+
+<p>Un B
+
+<button onclick="playAudio1()" type="button">|></button>
+<button onclick="pauseAudio1()" type="button">||</button> 
+                        </p>
+                        </audio>
+                        
+<audio id="myAudio2">
+  
+  <source src="Sonidos/3.m4a">
+
+
+<p>Un B
+
+<button onclick="playAudio2()" type="button">|></button>
+<button onclick="pauseAudio2()" type="button">||</button> </p></audio>
+
+
+<audio id="myAudio3"><source src="Sonidos/4.m4a"> <p>Eduardo Carpentieri</p> <button onclick="playAudio3()" type="button">|></button>
+<button onclick="pauseAudio3()" type="button">||</button></audio>
+
+
+<audio id="myAudio4"><source src="Sonidos/5.m4a"><p>Eduardo Gonzalez<button onclick="playAudio4()" type="button">|></button>
+<button onclick="pauseAudio4()" type="button">||</button></p></audio>
+
+
+<audio id="myAudio5"><source src="Sonidos/6.m4a"><p>Omar Acuña<button onclick="playAudio5()" type="button">|></button>
+<button onclick="pauseAudio5()" type="button">||</button></p></audio>
+
+
+<audio id="myAudio6"><source src="Sonidos/7.mp3"><p>Dario Acuña<button onclick="playAudio6()" type="button">|></button>
+<button onclick="pauseAudio6()" type="button">||</button></p></audio>
+
+
+<audio id="myAudio7"><source src="Sonidos/8.m4a"><p>Horacio Alvarez<button onclick="playAudio7()" type="button">|></button>
+<button onclick="pauseAudio7()" type="button">||</button></p></audio>
+
+
+<audio id="myAudio8"><source src="Sonidos/9.m4a"><p>Matias Brito
+<button onclick="pauseAudio8()" type="button">||</button></p></audio>
+
+
+<audio id="myAudio9"> <source src="Sonidos/10.mp3"> <p>Laura <button onclick="playAudio9()" type="button">|></button>
+<button onclick="pauseAudio9()" type="button">||</button></p></audio>
+
+            </div>
+            
+
+
+
+        </section>
+   <footer>
+    <img id="alexis" src="logo/LOGOb.png"></img>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+[0731/181620.872:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[0731/181620.880:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Eastness\Application\57.0.2987.98\chrome.dll: No se puede encontrar el módulo especificado. (0x7E)
+[0731/181623.921:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[0731/181623.927:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Eastness\Application\57.0.2987.98\chrome.dll: No se puede encontrar el módulo especificado. (0x7E)
+[0731/181638.553:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[0731/181638.672:ERROR:persistent_memory_allocator.cc(738)] Corruption detected in shared-memory segment.
+[0731/181638.673:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[0903/202509.300:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[0903/202509.325:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Eastness\Application\57.0.2987.98\chrome.dll: No se puede encontrar el módulo especificado. (0x7E)
+[0903/202524.971:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[0903/202537.495:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[0904/202946.376:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[0904/202946.393:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Eastness\Application\57.0.2987.98\chrome.dll: No se puede encontrar el módulo especificado. (0x7E)
